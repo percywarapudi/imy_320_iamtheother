@@ -57,7 +57,8 @@ a:active {
 	Header Start 
 --*/
 header {
-  background: #fff;
+  color: #c5d7bd; 
+  background-color: #202f34;
   padding: 20px 0;
 }
 header .navbar {
@@ -89,12 +90,13 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start 
 --*/
 #slider {
-  background: url("../img/slider-bg.jpg") no-repeat;
+	 background: url("../img/slider-bg.png") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
   position: relative;
+ 
 }
 #slider:before {
   content: "";
@@ -130,7 +132,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	wrapper Start 
 --*/
 #intro {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 #intro .block h2 {
   padding-top: 35px;
@@ -223,7 +225,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start 
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
+  /*background: url("../img/featue-bg.jpg");*/
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -242,7 +244,7 @@ font header .navbar-default .navbar-nav li a:hover {
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  padding: 100px 0;
+  padding: 0px 0;
 }
 #feature h2 {
   font-size: 28px;
@@ -766,10 +768,11 @@ font header .navbar-default .navbar-nav li a:hover {
 	footer Start 
 --*/
 footer {
-  background: #F5F5F5;
+  background-color: #202f34;
   text-align: center;
   padding-top: 48px;
   padding-bottom: 55px;
+  color: #fff;
 }
 footer p {
   font-size: 13px;
